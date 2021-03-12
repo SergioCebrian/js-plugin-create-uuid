@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Plugin Create UUID</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="plugin.js"></script>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        new PluginCreateUUID({
+            format: 'full',
+            number: 15
+        }).render('#result');
+    </script>
+</body>
+</html>
